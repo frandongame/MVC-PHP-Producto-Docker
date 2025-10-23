@@ -14,7 +14,7 @@ services:
   db:
     environment:
       MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: myapp_db
+      MYSQL_DATABASE: products_db
     volumes:
       - db_data:/var/lib/mysql
 
