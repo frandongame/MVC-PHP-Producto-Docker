@@ -3,7 +3,7 @@ services:
   app:
     build: .
     ports:
-      - "80:80"
+      - "8084:80"
     depends_on:
       - db
     environment:
@@ -15,6 +15,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: password
       MYSQL_DATABASE: products_db
+      MYSQL_USER: usuario_app
+      MYSQL_PASS: clave_app
     volumes:
       - db_data:/var/lib/mysql
 
