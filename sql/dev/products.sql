@@ -6,6 +6,6 @@ CREATE TABLE `PRODUCTS` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `PRODUCTS` (`cod`, `short_name`, `pvp`, `nombre`) VALUES
-(1, 'HD', '100.00', 'Samsung'),
-(2, 'NOTEBOOK', '800.00', 'Lenovo IdeaPad'),
-(3, 'MOUSE', '20.00', 'Logitech M90');
+(1, 'SSD', '400.00', 'BENQ'),
+(2, 'PIXEL 10', '999.99', 'dispositivo google'),
+(3, 'iPad Pro', '900.00', 'Apple iPad Pro 9');
